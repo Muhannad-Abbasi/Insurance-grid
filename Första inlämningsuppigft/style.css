@@ -1,0 +1,603 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Frank+Ruhl+Libre:wght@500&display=swap');
+
+/* Fonts End */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+/* Header Start */
+
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.top-page-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-page-left{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 544px;
+    padding: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: #C7DDEA;
+    background-image: url(/Img/familj.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 10px;
+}
+
+.title{
+    font-size: 45px;
+    line-height: 100%;
+}
+
+.sec-title{
+    font-size: 32px;
+    line-height: 41px;
+    color: white;
+}
+
+.title, .title-text, .btn{
+    padding-bottom: 10px;
+}
+
+.title-text{
+    padding-bottom: 50px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.white-text{
+    font-weight: 500;
+    color: white;
+}
+
+.text{
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.title-text, .text{
+    font-family: Fira Sans;
+    font-weight: 600;
+}
+
+.title, .sec-title{
+    font-family: Frank Ruhl Libre;
+}
+
+
+.btn{
+
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background: white;
+    padding: 10px 35px;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Fira Sans';
+    cursor: pointer;
+}
+
+.top-page-top-right{
+    background: #F17949;
+    grid-column: 2;
+    grid-row: 2;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-page-bottom-right{
+    background: #FAB131;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Start */
+
+ul{
+    list-style: none;
+}
+
+.link{
+    color: black;
+}
+
+.links{
+    color: gray;
+}
+
+.link, .links{
+    text-decoration: none;
+    }
+
+.menu{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+.menu-items{
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    padding-left: 100px;
+}
+
+/* Nav End */
+
+/* .hero-showcase{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero-showcase::before{
+    content: "";
+    width: 100%;
+    height: 50%;
+    background: #A9A19E;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+.hero-showcase::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    background: #FAB131;
+    position: absolute;
+    bottom: 0%;
+    right: 100%;
+} */
+
+/* Hero Start */
+
+.hero-content{
+    width: 100%;
+
+    /* height: 100%;
+    position: relative; */
+}
+
+/* .hero-content::before{
+    content: "";
+    width: 100%;
+    height: 50%;
+    background: #A9A19E;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+.hero-content::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    background: #FAB131;
+    position: absolute;
+    bottom: 0%;
+    right: 100%;
+} */
+
+/* Top Part Start */
+
+.top-part{
+    width: 100%;
+    display: flex;
+    background: #A9A19E;
+}
+
+.top-left-part{
+    width: 50%;
+    margin: 10%;
+}
+
+.hero-title{
+    font-family: Frank Ruhl Libre;
+    color: white;
+    font-size: 44px;
+    padding-bottom: 40px;
+}
+
+.top-right-part{
+    width: 50%;
+    margin: 8%;
+    padding: 15px 30px;
+}
+
+.hero.text{
+    font-family: Fira Sans;
+    font-size: 14px;
+}
+
+/* Top Part End */
+
+/* Middle Part Start */
+
+.A-boxes{
+    padding: 0 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: tomato;
+}
+
+.card{
+    height: 308px;
+    width: 256px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1-background{
+    width: 95%;
+    height: 35%;
+    margin: 0px auto;
+    background: #C7DDEA;
+    position: relative;
+    border: 1px solid #C7DDEA;
+    border-radius: 3px;
+    bottom: 20px;
+}
+
+.box-1-img{
+    height: 90%;
+    position: absolute;
+    right: 35%;
+    bottom: 0%;
+}
+
+.card-text{
+    font-family: Fira Sans;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-2-background{
+    width: 95%;
+    height: 35%;
+    margin: 0px auto;
+    background: #FAB131;
+    position: relative;
+    border: 1px solid #FAB131;
+    border-radius: 3px;
+    bottom: 20px;
+}
+
+.box-2-img{
+    height: 90%;
+    position: absolute;
+    right: 35%;
+    bottom: 0%;
+}
+
+
+
+.box-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-3-background{
+    width: 95%;
+    height: 35%;
+    margin: 0px auto;
+    background: #F17949;
+    position: relative;
+    border: 1px solid #F17949;
+    border-radius: 3px;
+    bottom: 20px;
+}
+
+.box-3-img{
+    height: 90%;
+    position: absolute;
+    right: 27%;
+    bottom: 0%;
+}
+
+/* Middle Part End */
+
+/* Bottom Part Start */
+
+.bottom-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FAB131;
+    padding: 15%;
+}
+
+.bottom-text, .gab{
+    font-family: Fira Sans;
+    font-size: 14px;
+    padding: 0% 20% 20px 20%;
+    text-align: center;
+}
+
+/* Bottom Part End */
+
+/* Hero Bottom Start */
+
+.B-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 340px;
+}
+
+.B-box-1{
+    background: #C7DDEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-title, .new-line{
+    font-family: Frank Ruhl Libre;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.B-box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.B-box-2::before{
+    content: "01";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+}
+
+.bottom-part-text{
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.B-box-3{
+    background: #c9c9c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.B-box-3::before{
+    content: "02";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+}
+
+.B-box-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.B-box-4::before{
+    content: "03";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+}
+
+.B-box-5{
+    background: #F17949;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.B-box-5::before{
+    content: "03";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+}
+
+.B-box-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.B-box-6::before{
+    content: "05";
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Frank Ruhl Libre;
+    font-size: 35px;
+}
+
+/* Hero Bottom End */
+
+/* Hero End */
+
+/* Header End */
+
+/* Footer Start */
+
+.footer-container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+
+.top-footer{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #A9A19E;
+}
+
+
+.fas{
+    color: rgba(0, 0, 0, 0.7);;
+}
+
+
+.footer-link{
+    text-decoration: none;
+    font-family: Fira Sans;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.bottom-footer{
+    width: 100%;
+    height: 50vh;
+    background: #777574;
+}
+
+/* Footer End */
+
+/* Responsive Start */
+
+@media only screen and (max-width: 600px){
+
+    .top-page-content{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        width: 600px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .top-part{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        background: #A9A19E;
+    }
+
+    .A-boxes{
+        padding: 15%;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: tomato;
+    }
+
+    .card{
+        margin-bottom: 25%;
+    }
+
+    .bottom-part{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FAB131;
+        padding: 15%;
+    }
+
+    .B-boxes{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 440px;
+        width: 600px;
+    }
+
+    .top-footer{
+        width: 600px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #A9A19E;
+    }
+
+    .bottom-footer{
+        width: 600px;
+        height: 50vh;
+        background: #777574;
+    }
+}
